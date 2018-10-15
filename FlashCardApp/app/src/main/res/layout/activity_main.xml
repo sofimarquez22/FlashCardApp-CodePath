@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:id="@+id/rootView"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="What popular Disney movie is set near Salem, Massachusetts in the years 1693 and 1993?"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hocus Pocus"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
